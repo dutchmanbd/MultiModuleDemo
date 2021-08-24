@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sms_verification"
+    app:startDestination="@id/smsVerificationFragment">
+
+    <fragment
+        android:id="@+id/smsVerificationFragment"
+        android:name="com.ticonsys.smsverification.SmsVerificationFragment"
+        android:label="SmsVerificationFragment" />
+</navigation>
